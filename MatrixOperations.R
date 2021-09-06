@@ -75,3 +75,8 @@ print(a%*%b)
 
 #element by element division
 print(a/b)
+
+library(pracma)
+m1 = matrix(c(1,4,3,5,6,2,5,0,5,1,8,6,5,1,0,2,8,6,10,12,9,7,6,5,1),5,5,F)
+print(det(m1))
+print(Rank(m1))
